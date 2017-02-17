@@ -5,6 +5,16 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatformVideoPlayer", "XPlatformVideoPlayer\XPlatformVideoPlayer.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36C82AEB-96DD-4205-A084-0E0D7E4AC901}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidVideoPlayer", "AndroidVideoPlayer\AndroidVideoPlayer.csproj", "{17DEDEC6-4327-42DB-BA81-1817940D53DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24} = {67F9D3A8-F71E-4428-913F-C37AE82CDB24}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,10 @@ Global
 		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DEDEC6-4327-42DB-BA81-1817940D53DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DEDEC6-4327-42DB-BA81-1817940D53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DEDEC6-4327-42DB-BA81-1817940D53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DEDEC6-4327-42DB-BA81-1817940D53DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
