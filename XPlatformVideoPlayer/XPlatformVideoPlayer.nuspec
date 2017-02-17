@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CYINT.XPlatformVideoPlayer</id>
+    <version>0.0.2-alpha</version>
+    <title>XPlatformVideoPlayer</title>
+    <authors>CYINT Technologies</authors>
+    <owners>CYINT Technologies</owners>
+    <projectUrl>https://www.github.com/dfredriksen/XPlatformVideoPlayer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A cross-platform portable class library and abstract implementation for a Video player that derives from XPlatformMediaPlayer.</description>
+    <releaseNotes>Updated XPlatformMediaPlayer dependency</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Media Player, Video Player</tags>
+  </metadata>
+  <files>
+        <!-- PCL reference assemblies -->
+        <file src="bin\Release\XPlatformVideoPlayer.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\XPlatformVideoPlayer.dll" />  
+        <!-- Android reference assemblies -->
+        <file src="..\AndroidVideoPlayer\bin\Release\AndroidVideoPlayer.dll" target="lib\monoandroid\AndroidVideoPlayer.dll" />  
+  </files>
+
+</package>
